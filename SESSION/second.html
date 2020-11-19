@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <style>
+        img.first{
+            border: dashed 2px;
+            border-radius: 20px;
+            filter: grayscale(100%);
+        }
+
+        .hover:hover{
+            font-size: 2em;
+            color: maroon;
+        }
+
+        .translate{
+            background-color: mediumspringgreen;
+            transform: translate(100px,100px);
+        }
+
+        .clip-image{
+            clip-path: circle(100px at center);
+        }
+    </style>
+</head>
+<body style="position: relative;">
+    <div class = "my-images">
+        <img class="first" src="static/letter-a.png" style="width: 25%; height: auto;">
+        <img class="first" src="static/undraw_fast_car_p4cu.png" style="width: 25%; height: auto;">
+    </div>
+
+    <div>
+        <p style="cursor: help;">This will show cursor - help</p>
+        <p style="cursor: wait;">This will show cursor - wait</p>
+        <p style="cursor: crosshair;">This will show cursor - crosshair</p>
+        <p style="cursor: not-allowed;">This will show cursor - not-allowed</p>
+        <p style="cursor: zoom-in;">This will show cursor - zoom-in</p>
+        <p style="cursor: grab;">This will show cursor - grab</p>
+    </div>
+
+
+    <div class="hover">
+        This text is to show the hovering effect
+    </div>
+
+
+    <!-- <div class="translate">
+        This text shows translation.
+    </div> -->
+
+
+    <div>
+        <img class="clip-image" src="static/guvi.png">
+    </div>
+</body>
+</html>
